@@ -2,7 +2,7 @@ FROM postgres:10
 
 LABEL Alexander Kukushkin <alexander.kukushkin@zalando.de>
 
-ARG patroniv=1.6.5
+ARG patroniv=2.0.1
 ENV PATRONI_VERSION=$patroniv
 ENV LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ENV PATRONI_HOME=/opt/patroni
